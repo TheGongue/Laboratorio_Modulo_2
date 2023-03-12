@@ -1,4 +1,3 @@
-// Objetivo 1 [Datos del hotel]
 var hotel = {
     name: "Mencey",
     location: "Tenerife",
@@ -11,12 +10,10 @@ var hotel = {
     "Ubicado en " + hotel.location;
   document.getElementById("img-hotel").src = hotel.img;
 
-  // Objetivo 2 [Puntuación del hotel]
 var rating = prompt("Puntuación: del 1 al 5");
 
 document.getElementById("rating").innerHTML = rating + " estrellas";
 
-// Objetivo 3 [Usuario anónimo]
 var anonymous = confirm("¿Quiere que la reseña sea anómima?");
 
 document.getElementById("anonymous").checked = anonymous;
